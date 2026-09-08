@@ -1,0 +1,20 @@
+{
+  "name": "catherine-fashion-ai-responder",
+  "version": "1.0.0",
+  "description": "AI auto-responder for Catherine Fashion Store — answers customers on the website, WhatsApp, Facebook Messenger and Telegram, with notes on X and TikTok.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
